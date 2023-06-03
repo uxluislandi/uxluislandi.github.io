@@ -23,7 +23,7 @@ function validatePassword() {
         // Password is incorrect, display an error message or perform other actions
         var passwordStatus = document.getElementById("password-status");
         passwordStatus.style.display = "block";
-        passwordStatus.innerHTML = `Incorrect password. Try again or <a href="mailto:ux@luislandi.com?subject=I would like to see know more about your work!&body=Hi, I would like to have a look at your work, could you share with me the password of your prototype?">contact me</a> to request the password.`;
+        passwordStatus.innerHTML = `Incorrect password. Try again or <a href="mailto:ux@luislandi.com?subject=I'm really interested in learning more about your work! 🌟&body=Hi there! I'd love to have a glimpse at your impressive portfolio. Would you mind sharing the password for your prototype with me? I appreciate your kindness!">contact me</a> to request the password.`;
     }
 }
 
