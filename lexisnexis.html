@@ -6,8 +6,8 @@
         <meta charset="utf-8" />
         <title>Luis Landi - Insurance</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="UX designer Insurance" />
-        <meta name="keywords" content="UX designer Insurance" />
+        <meta name="description" content="UX designer start up" />
+        <meta name="keywords" content="UX designer start up" />
         <meta name="author" content="UX Landi, Salsedine limited" />
         <meta name="Version" content="1.0" />
         <!-- favicon -->
@@ -32,7 +32,50 @@
         <!-- Main Css -->
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/colors/default.css" rel="stylesheet">
-    
+        <style>
+            .bg-overlay {
+                top: 0px;
+                height: 100%;
+            }
+            .section {
+                padding: 0 0 100px 0;
+            }
+            .section-title {
+                padding-top: 13%;
+            }
+            ul {
+            list-style-type: square;
+            }
+            
+            .password-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .password-input {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .submit-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+        </style>
+        <script src="myworks.js" defer></script>
     </head>
 
     <body>
@@ -156,7 +199,13 @@
                                                     <li><a href="widget.html">Chatbot</a></li>
                                                 </ul>-->
                         </li>
-                    </ul><!--end navigation menu--> 
+                    </ul><!--end navigation menu-->
+                    
+                    </div><!--end navigation-->
+                    </div><!--end container-->
+                    </header><!--end header-->
+                    <!-- Navbar End -->
+        
         <!-- Hero Start -->
         <section class="bg-half bg-light d-table w-100">
             <div class="container">
@@ -165,16 +214,14 @@
                         <div class="page-next-level">
                             <h4 class="title"> Map View Global </h4>
                             <ul class="list-unstyled mt-4">
-                                <li class="list-inline-item h6 user text-muted mr-2"> <span class="text-dark">Client :</span> Lexis Nexis</li>
-                            </ul>
-                            <ul class="list-unstyled mt-4">
+                            <li class="list-inline-item h6 user text-muted mr-2"> <span class="text-dark">Client :</span> Lexis Nexis</li>
                             <li class="list-inline-item h6 date text-muted mr-2"> <span class="text-dark">Start date :</span> Sep 2019</li>
-                            <li class="list-inline-item h6 date text-muted mr-2"> <span class="text-dark">End date :</span> Sep 2020</li>
+                            <li class="list-inline-item h6 date text-muted mr-2"> <span class="text-dark">End date :</span> May 2020</li>
                             </ul>
                             
                             <ul class="page-next d-inline-block bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
                                 <li><a href="index.html" class="text-uppercase font-weight-bold text-dark">Home</a></li>
-                                <!-- <li><a href="#" class="text-uppercase font-weight-bold text-dark">Pages</a></li>  -->
+                                <!-- <li><a href="#" class="text-uppercaRiskse font-weight-bold text-dark">Pages</a></li>  -->
                                 <li><a href="portfolio.html" class="text-uppercase font-weight-bold text-dark">Portfolio</a></li> 
                                 <li>
                                     <span class="text-uppercase text-primary font-weight-bold">Lexis Nexis Risk</span> 
@@ -205,17 +252,15 @@
                         <div class="work-details rounded bg-light p-4">
                             <h5 class="title border-bottom pb-3 mb-3">Project Info :</h5>
                             <dl class="row mb-0">
-                                <dt class="col-md-4 col-5">Client :</dt>
-                                <dd class="col-md-8 col-7 text-muted">Lexis Nexis Risk</dd>
-                
                                 <dt class="col-md-4 col-5">Category :</dt>
                                 <dd class="col-md-8 col-7 text-muted">UX/ UI design</dd>
-                
+                                <dt class="col-md-4 col-5">Category :</dt>
+                                <dd class="col-md-8 col-7 text-muted">User experience lead</dd>
                                 <dt class="col-md-4 col-5">Field :</dt>
                                 <dd class="col-md-8 col-7 text-muted">Insurance</dd>
                 
                                 <dt class="col-md-4 col-5">Website :</dt>
-                                <a href="https://risk.lexisnexis.co.uk/products/map-view" target="_blank" dd class="col-md-8 col-7 text-muted">Map view global</a>
+                                <a href="https://risk.lexisnexis.co.uk/products/map-view" target="_blank" dd class="col-md-8 col-7 text-muted">Map View Global</a>
                 
                                 <!-- <dt class="col-md-4 col-5">Location :</dt>
                                 <dd class="col-md-8 col-7 text-muted">3/2/64 Mongus Street, UK</dd> -->
@@ -224,91 +269,263 @@
                     </div>
                 
                     <div class="col-lg-6 mt-4 pt-2">
-                        <img src="images/logo-Lexis-Nexis.png" class="img-fluid rounded" alt="UX remote for redesign">
+                        <img src="images/logo-Lexis-Nexis.png" class="img-fluid rounded" alt="UX start up">
+                    </div>
+                </div>
+                <!--    <div class="row">
+                        <div class="col-md-6 mt-4 pt-2">
+                            <img src="images/UX-Ireland-Dublin.jpg" class="img-fluid rounded"
+                                alt="UX designer Dublin freelance">
+                        </div>
+                
+                        <div class="col-md-6 mt-4 pt-2">
+                            <img src="images/UX-Ireland-remote.jpg" class="img-fluid rounded"
+                                alt="UI designer Dublin freelance">
+                        </div>
+                    </div>-->
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">Introduction</h5>
+                    <p class="text-muted mb-0"> LexisNexis Risk Solutions is a global data and analytics company that provides data and
+                    technology services, analytics, predictive insights and fraud prevention for a wide range of industries. The
+                    company’s customers include businesses within the insurance, financial services, healthcare and corporate
+                    sectors as well as the local, state and federal government, law enforcement and public safety. LexisNexis Risk
+                    Solutions operates within the Risk & Business Analytics market segment of RELX, a multinational information and
+                    analytics company based in London.
+                    </p>
+                </div>
+                
+                <div class="bg-light rounded p-4 mt-4">
+            <!--    <div class="row justify-content-center mt-4">
+                    <div class="col-md-10 mt-4 pt-2 mt-48">
+                        <div class="bg-light rounded p-4 mt-4 pt-2">-->
+                            <h5 class="title border-bottom pb-3 mb-3">Problem statement</h5>
+                            <p class="text-muted mb-0">The project involved leading the redesign of LexisNexis® Map View, a property insurance assessment and risk management
+                            tool. The primary objectives were to improve data visualization for easier interpretation of risk datasets, update risk
+                            assessment capabilities with new data sources, and enhance the platform's ability to provide actionable insights through
+                            predictive analytics models. The goal was to increase user satisfaction, expand the number of assessable risk factors,
+                            and streamline decision-making processes for policy pricing and portfolio management.</p>
+                        </div>
+                    <!--</div>-->
+
+                <div class="container mt-30" style="padding-top: 7rem";>
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <img src="images/uxinsurance_1.png" data-aos="fade-up" data-aos-duration="1800" class="img-fluid" alt="">
+                        </div><!--end col-->
+                
+                        <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title ml-lg-5" style="padding-top: 0px;">
+                                <h4 class="title mb-4" data-aos="fade-up" data-aos-duration="1000">Improve Data Visualization
+                                </h4>
+                                <ul class="list-unstyled feature-list mb-0 text-muted" data-aos="fade-up" data-aos-duration="1800">
+                                    <li>◼ Enhance the user interface to enable a more interpretation of risk datasets.</li>
+                                    <li>◼ Implement intuitive data visualization techniques to present complex information in a user-friendly manner.
+                                    </li>
+                                    <li>◼ Achieve a 35% increase in user satisfaction by improving the data visualization experience.
+                                    </li>
+                                    <li>
+                                    ◼ Gather positive feedback from stakeholders regarding the enhanced data visualization capabilities.
+                                    </li>
+                                    <li>
+                                    ◼ Ensure the redesigned UI supports efficient risk dataset interpretation.
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+                <div class="container mt-50 mt-60">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title ml-lg-5">
+                                <h4 class="title mb-4" data-aos="fade-up" data-aos-duration="1000">Expand Risk Assessment Capabilities
+                                </h4>
+                                <ul class="list-unstyled feature-list mb-0 text-muted" data-aos="fade-up" data-aos-duration="1800">
+                                    <li>◼ Update risk assessment capabilities by incorporating new data sources, such as satellite imagery.
+                                    </li>
+                                    <li>◼ Evaluate and incorporate assumptions derived from an artificial intelligence dataset evaluation into the risk assessment
+                                    process.
+                                    </li>
+                                    <li>◼ Increase the number of assessable risk factors by 24% through the utilization of the new data sources.
+                                    </li>
+                                    <li>◼ Measure user satisfaction with the expanded risk assessment capabilities and gather positive feedback.
+                                    </li>
+                                    <li>◼ Ensure the new risk assessment capabilities align with user needs and expectations.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end col-->
+                        <div class="col-lg-5 col-md-6">
+                            <img src="images/uxinsurance_2.png" data-aos="fade-up" data-aos-duration="1800" class="img-fluid" alt="">
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+                <div class="container mt-50 mt-60">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <img src="images/uxinsurance_3.png" data-aos="fade-up" data-aos-duration="1800" class="img-fluid" alt="">
+                        </div><!--end col-->
+                
+                        <div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title ml-lg-5">
+                                <h4 class="title mb-4" data-aos="fade-up" data-aos-duration="1000">Provide Actionable Insights
+                                </h4>
+                                <ul class="list-unstyled feature-list mb-0 text-muted" data-aos="fade-up" data-aos-duration="1800">
+                                    <li>◼ Enhance the platform with predictive analytics models for policy pricing and portfolio management decisions.
+                                    </li>
+                                    <li>◼ Decrease the time required to generate actionable insights by 12% through improved analytics processes.
+                                    </li>
+                                    <li>◼ Enable portfolio managers to quickly view the portfolio state and make informed pricing and management changes.
+                                    </li>
+                                    <li>◼ Measure the impact of predictive analytics on decision-making efficiency and accuracy.
+                                    </li>
+                                    <li>◼ Ensure the availability of comprehensive and accurate insights for better policy pricing and portfolio management.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">Research</h5>
+                    <ul class="feature-list text-muted mt-4">
+                        <li>
+                        Data Visualization: Conducted pre and post-redesign comparison of user performance on interpreting risk datasets through
+                        data visualization. Measured the time taken to interpret complex risk data and observed a 40% reduction in
+                        interpretation time.
+                        </li>
+                        <li>
+                        Conducted Usability Testing: Conducted usability testing sessions with 15 representative users to evaluate the
+                        redesigned product. Collected quantitative data on task completion rates, time on task, and error rates to measure
+                        improvements in usability.
+                        </li>
+                        <li>
+                        Analyzed User Feedback: Analyzed qualitative feedback from usability testing sessions and user surveys to identify
+                        common pain points and areas for improvement. Categorized feedback into themes and quantified the frequency of specific
+                        issues raised.
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">Information architecture</h5>
+                    <div class="figma-embed" ; height="65vh" ; display="flex" ;>
+                        <img src="images/ux-Information_architecture.png" class="img-fluid rounded" alt="UX information architecture">
                     </div>
                 </div>
                 <div class="bg-light rounded p-4 mt-4">
-                    <p class="text-muted mb-0"> LexisNexis Risk Solutions is a global data and analytics company that provides data and
-                        technology services, analytics, predictive insights and fraud prevention for a wide range of industries. The
-                        company’s customers include businesses within the insurance, financial services, healthcare and corporate
-                        sectors as well as the local, state and federal government, law enforcement and public safety. LexisNexis Risk
-                        Solutions operates within the Risk & Business Analytics market segment of RELX, a multinational information and
-                        analytics company based in London.</p>
+                    <h5 class="title border-bottom pb-3 mb-3">Competitive Analysis</h5>
+                    <p class="text-muted mb-0">Identified gaps in main competitors like:</p>
+                    <ul class="feature-list text-muted mt-4">
+                        <li>Data integration feature that allows users to seamlessly import and export data from other platforms or databases</li>
+                        <li>Customization options for data visualization</li>
+                        <li>User onboarding process
+                        </li>
+                        <li>Information architecture and discoverability of the features
+                        </li>
+                        <li>Contemporary and visually appealing interfaces
+                        </li>
+                        <li>Performance issues, such as slow loading times for large datasets or delays in data updates
+                        </li>
+                        <li>Compatibility with different devices or browsers and across various user environments
+                        </li>
+                    </ul>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center mt-50">
-                        <img src="images/uxremote-insurance.png" class="img-fluid rounded" alt="UX remote insurance design">
-                    </div>
-
-                    <div class="col-md-10 mt-4 pt-2 mt-48">
-                        <div class="bg-light rounded p-4">
-                            <p class="text-muted mb-0">LexisNexis Map View for property insurers allows companies to more accurately assess and price risk, and manage exposure by providing visualisation of key risk data, valuable insights into property-level risks and overall portfolio exposure to perils and accumulations.
-                            Currently offers over 40 risk datasets, which can be used to understand perils right down to the precision of the building outline – seeing a 50% reduction in flood exposure and 8% improvement in new business targeting.</p>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6 mt-4 pt-2">
-                                <img src="images/uxremote-insurance-redesign.png" class="img-fluid rounded" alt="UX redesign software risk management">
-                            </div>
-
-                            <div class="col-md-6 mt-4 pt-2">
-                                <img src="images/uxremote-insurance-UI.png" class="img-fluid rounded" alt="UI redesign insurance software">
-                            </div>
-                        </div>
-
-                        <div class="bg-light rounded p-4 mt-4 pt-2">
-                            <p class="text-muted mb-0">My task as Lead UX designer was to manage all the Design related tasks. Presented to the PO and the development team and tested it with Usability testing. This project included the creation of brand guidelines for the new User Interface, definition of the information architecture and prioritization of the data to display to the users.
-                            In my day to day my responsibilities were:</p>
-                            
-                            <ul class="list-unstyled feature-list text-muted mt-4">
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Contribute to the overall strategy and decision-making about features.</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Drive continual progress towards a cohesive, delightful experience for a technical audience through iterative improvements.</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Have the autonomy to facilitate conversations, identify problems, arrive at solutions, and execute designs.</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Pull together insights to propose a variety of solutions, then collaborate with product and engineering to determine the
-                                best solutions to problems.</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Use prototyping and usability testing to inform and validate designs.</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Collaborate directly with customers to inform strategy and design decisions</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Collaborate directly with customers to inform strategy and design decisions</li>
-                                <li><i class="mdi mdi-checkbox-marked-circle text-success mdi-18px h5 mr-2"></i>Create and maintain the Design System for the new platform.</li>
-                            </ul>
-                        </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 text-center">
+                        <img src="images/usecase-lexisnexis.png" class="img-fluid rounded" alt="UX user personas">
                     </div>
                 </div>
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">KPI</h5>
+                    <ul class="feature-list text-muted mt-4">
+                        <li>User Adoption Rate: Measure the percentage of users who have successfully adopted and regularly use Map View, indicating
+                        the platform's acceptance and value to users.</li>
+                        <li>Visualization Effectiveness: Assess user satisfaction with the clarity, accuracy, and usability of the map visualization
+                        features, ensuring that users can easily interpret and analyze the displayed data.</li>
+                        <li>Response Time: Monitor the average response time of Map View to ensure a fast and responsive user experience, minimizing
+                        delays during data loading, rendering, and report generation.
+                        </li>
+                        <li>
+                        User Engagement: Track user's engagement metrics such as map interactions, annotations created, and layers added,
+                        indicating the level of user involvement and active use of Map View.
+                        </li>
+                        <li>
+                        Customer Satisfaction: Collect feedback from users through surveys or ratings to gauge their satisfaction with Map
+                        View's ease of use, effectiveness in data analysis, and overall user experience.
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">Design approach</h5>
+                    <ul class="feature-list text-muted mt-4">
+                        <li>Definition of the target
+                        users' needs, pain points, and workflows.</li>
+                        <li>I developed a solid information architecture that organized
+                        the application's features, data, and functionalities in a logical and intuitive manner.</li>
+                        <li>Wireframing and Prototyping: I utilized wireframing to iterate on the design concepts. I collaborated with the
+                        development team and stakeholders to gather feedback. This iterative process allowed for quick validation of design
+                        decisions and ensured alignment with user requirements.
+                        </li>
+                        <li>Usability Testing: To validate the design concepts, I conducted usability testing sessions on the wireframes with
+                        representative users.</li>
+                        
+                    </ul>
+                </div>
+                <div class="bg-light rounded p-4 mt-4">
+                    <h5 class="title border-bottom pb-3 mb-3">Map View prototype</h5>
+                    <div class="password-container">
+                        <p id="password-text">To view the prototype, please enter the password:</p>
+                        <div>
+                            <input type="password" id="password-input" class="password-input" placeholder="Enter password">
+                            <button id="submit-button" class="submit-button" onclick="validatePassword()">Submit</button>
+                        </div>
+                        <p id="password-status" style="display: none;"></p>
+                    </div>
+                    <div id="iframe-container" style="display: none;">
+                        <div class="figma-embed" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe id="prototype-iframe"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid rgba(0, 0, 0, 0.1);"
+                                src="https://luislandi.invisionapp.com/console/share/8HYVGRNF5AB" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <p id="password-status"></p>
+                </div>
+                <script src="mywork2.js" defer></script>
             </div>
         </section>
         <!-- End Work Detail -->
-
-        <footer class="footer footer-bar">
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col-sm-6">
-                        <div class="text-sm-left">
-                            <p class="mb-0">© 2020 by Luis Landi director of<a href="http://www.salsedine.net/" target="_blank"
-                                    class="text-success"> Salsedine Limited</a>.</p>
-                        </div>
-                    </div>
-                    <!--end col-->
-                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul class="list-unstyled social-icon social text-sm-right mb-0">
-                            <li class="list-inline-item mb-0"><a href="https://www.facebook.com/uxremote/" class="rounded"
-                                    target="_blank"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
-                            <li class="list-inline-item mb-0"><a href="https://www.instagram.com/uxremote/" class="rounded"
-                                    target="_blank"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
-                            <li class="list-inline-item mb-0"><a href="https://twitter.com/UxRemote" class="rounded"><i
-                                        class="mdi mdi-twitter" title="Twitter"></i></a></li>
-                            <li class="list-inline-item mb-0"><a href="https://slack.com/app_redirect?channel=C01FKHKGVM1"
-                                    class="rounded"><i class="mdi mdi-slack" title="Slack"></i></a></li>
-                        </ul>
-                        <!--end icon-->
-                    </div>
-                    <!--end col-->
-        
+<footer class="footer footer-bar">
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <div class="text-sm-left">
+                    <p class="mb-0">© 2020 by Luis Landi director of<a href="http://www.salsedine.net/" target="_blank"
+                            class="text-success"> Salsedine Limited</a>.</p>
                 </div>
-                <!--end row-->
             </div>
-            <!--end container-->
-        </footer>
-        <!--end footer-->
+            <!--end col-->
+            <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <ul class="list-unstyled social-icon social text-sm-right mb-0">
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/uxremote/" class="rounded"
+                            target="_blank"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/uxremote/" class="rounded"
+                            target="_blank"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://twitter.com/UxRemote" class="rounded"><i
+                                class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://slack.com/app_redirect?channel=C01FKHKGVM1"
+                            class="rounded"><i class="mdi mdi-slack" title="Slack"></i></a></li>
+                </ul>
+                <!--end icon-->
+            </div>
+            <!--end col-->
+
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</footer>
+<!--end footer-->
 
         <!-- Back to top -->
         <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
@@ -321,6 +538,9 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/scrollspy.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific.init.js"></script>
         <!-- SLIDER -->
         <script src="js/owl.carousel.min.js "></script>
         <script src="js/owl.init.js "></script>
