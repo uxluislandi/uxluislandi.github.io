@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Luis Landi UX design freelance</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="UX designer freelance" />
+        <meta name="keywords" content="UX designer researcher UI remote" />
+        <meta name="author" content="UX Landi, Salsedine limited" />
+        <meta name="Version" content="1.0" />
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#231f20">
+        <meta name="theme-color" content="#231F20">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Magnific -->
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <!-- Slider -->               
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/> 
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>   
+        <!-- FLEXSLIDER -->
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+        <!-- Main Css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/colors/default.css" rel="stylesheet">
+
+        style=".badge-default {
+        background-color: #000 !important;
+        color: #ffffff !important;
+        }"
+        <style>
+            .badge-default {
+                background-color: #ffffff !important;
+                color: #000 !important;
+                }
+
+            .p-nmb {
+                margin-top: 0;
+                margin-bottom: 0rem;
+                }
+
+            .testimonial-content {
+                max-height: 160px;
+                overflow: hidden;
+                transition: max-height 0.4s ease;
+                }
+
+                .testimonial-content.expanded {
+                max-height: none;
+                }
+        </style>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                    $(document).on('click', '.see-more', function () {
+                        var $parent = $(this).closest('.customer-testi');
+                        $parent.find('.testimonial-content').addClass('expanded');
+                        $parent.find('.see-more').hide();
+                        $parent.find('.see-less').show();
+
+                        // Scroll to the beginning of the testimonial section
+                        $('html, body').animate({
+                            scrollTop: $('#testimonialSection').offset().top
+                        }, 500);
+                    });
+
+                    $(document).on('click', '.see-less', function (e) {
+                        e.preventDefault(); // Prevent the default click behavior
+
+                        var $parent = $(this).closest('.customer-testi');
+                        $parent.find('.testimonial-content').removeClass('expanded');
+                        $parent.find('.see-more').show();
+                        $parent.find('.see-less').hide();
+
+                        // Scroll to the beginning of the testimonial section
+                        $('html, body').animate({
+                            scrollTop: $('#testimonialSection').offset().top
+                        }, 500);
+                    });
+                });
+        </script>
+        
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader -->
+        
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky bg-white">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html"><img src="images/logo-uxremote.png" class="img-fluid mr-4" alt="" id="logo">Luis Landi<span class="text-primary">
+                        </span>
+                    </a>
+                </div>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu">
+                        <li class="menu">
+                        <!--                        <li class="has-submenu">-->
+                            <a href="portfolio.html">Portfolio</a><span class="menu-arrow"></span>
+                        </li>
+                        <li class="menu">
+                        <!--                        <li class="has-submenu">-->
+                            <a href="https://luislandi.com/CV.pdf" target="_blank">Resume</a><span class="menu-arrow"></span>
+                        </li>
+                    <li class="menu">
+                        <!--                        <li class="has-submenu">-->
+                            <a href="https://www.linkedin.com/in/luislandi/" target="_blank">LinkedIn</a><span class="menu-arrow"></span>
+                        </li>
+                        <li class="menu">
+<!--                        <li class="has-submenu">-->
+                            <a href="javascript:void(0)">About</a><span class="menu-arrow"></span>
+                        </li>
+                    </ul><!--end navigation menu-->
+                    
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+        
+        
+        <!-- Hero Start -->
+        <section class="bg-half bg-light d-table w-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="page-next-level">
+                            <h4 class="title"> About</h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+        <!-- About Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="position-relative">
+                            <img src="images/about.jpg" class="rounded img-fluid mx-auto d-block" alt="">
+                            <div class="play-icon">
+                                <a href="http://vimeo.com/287684225" class="play-btn video-play-icon">
+                                    <i class="mdi mdi-play text-primary rounded-pill bg-white shadow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+        
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title ml-lg-4">
+                            <h4 class="title mb-4">Crafting user experiences and driving business success through strategic UX design.</h4>
+                            <p class="text-muted">Hello, I'm Luis Landi, a senior UX designer with a passion for creating exceptional user experiences. With over 8 years
+                            of experience in SaaS products, I specialize in designing data visualization platforms. My goal is to transition into a
+                            more managerial role, such as a Product Owner or Project Manager.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Background and Experience</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Throughout my career, I have successfully led and contributed to various projects, working with notable clients and
+                            achieving remarkable results. I have designed award-winning applications and platforms that have significantly improved
+                            user satisfaction and increased engagement. My expertise lies in optimizing front-end quality assurance processes and
+                            delivering software releases on time.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+        
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/insurance_ux.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">UX Lead</li>
+                                </ul>
+                            </div>
+        
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/ln.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0">Lexis Nexis</a>
+                                    </h5>
+                                    <p class="text-muted p-nmb">Dublin (IE)</a></p>
+                                    <p class="text-muted">Insurance</a></p>
+                                </div>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Improved data visualization for a geospatial data tool, resulting in a 35% increase in user satisfaction
+                                    </li>
+                                </ul>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Enhanced risk assessment capabilities by 24% and streamlined data integration processes.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/dashboard_ux.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">Sr UX designer</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/er.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0">Ericsson</class=>
+                                    </h5>
+                                    <p class="text-muted p-nmb">Athone (IE)</a></p>
+                                    <p class="text-muted">Telecom</a></p>
+                                </div>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Optimized front-end QA, identifying and addressing 70% of bugs and usability issues before product release.
+                                    </li>
+                                </ul>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Improved data visualization for a geospatial data tool, resulting in a 35% increase in user
+                                        satisfaction
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/startup_ux.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">Sr UX designer</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/v.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0">Vstage
+                                    </h5>
+                                    <p class="text-muted p-nmb">Remote</a></p>
+                                    <p class="text-muted">Start up</a></p>
+                                </div>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>Led the creation of an online event management platform, resulting in three successful worldwide events with over 26k
+                                        attendees.
+                                    </li>
+                                </ul>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                    Developed an intuitive UI that reduced event set-up time by 50% and support tickets by 35%.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/ux_project_manager.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">UX designer</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/eng.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0">Engineering
+                                    </h5>
+                                    <p class="text-muted p-nmb">Bologna (IT)</a></p>
+                                    <p class="text-muted">Public administration</a></p>
+                                </div>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Optimized front-end QA, identifying and addressing 70% of bugs and usability issues before product
+                                        release.
+                                    </li>
+                                </ul>
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>
+                                        Improved data visualization for a geospatial data tool, resulting in a 35% increase in user
+                                        satisfaction
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/ecommerce_ux.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">UX Junior</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/c.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0"><a class="text-dark">Connexia</a>
+                                    </h5>
+                                    <p class="text-muted p-nmb">Milano (IT)</a></p>
+                                    <p class="text-muted">E-commerce</a></p>
+                                </div>
+                                
+                                <ul class="job-facts list-unstyled">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>User research, data analysis, information architecture, personas,user flows, wireframes and
+                                        prototypes. Additionally, I designed information architectures.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="job-box rounded shadow position-relative overflow-hidden">
+                            <div class="border-bottom">
+                                <div class="position-relative">
+                                    <img src="images/job/marketing_ux.png" class="img-fluid" alt="">
+                                    <div class="job-overlay bg-white"></div>
+                                </div>
+                                <ul class="list-unstyled head mb-0">
+                                    <li class="badge  badge-default badge-pill">Junior Web Desginer</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="content position-relative p-4">
+                                <div class="firm-logo rounded-pill shadow bg-light text-center">
+                                    <img src="images/job/gs.png" class="avatar avatar-md-sm" alt="">
+                                </div>
+                                <div class="company-detail text-center mt-3">
+                                    <h5 class="mb-0"><a class="text-dark">GameStop</a>
+                                    </h5>
+                                    <p class="text-muted p-nmb">Milano (IT)</a></p>
+                                    <p class="text-muted">E-commerce</a></p>
+                                </div>
+                                <ul class="job-facts list-unstyled" id="testimonialSection">
+                                    <li class="list-inline-item text-muted">
+                                        <i class="mdi mdi-chevron-right text-success"></i>Update HTML pages, data entry, visual design for banner, social media
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="container mt-100 mt-60">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <div class="section-title mb-60">
+                                    <h4 class="title mb-4">Testimonials</h4>
+                                    <p class="text-muted para-desc mx-auto mb-0">Don't just take my word for it - read what my satisfied clients and colleagues have to say about working with me. Their
+                                    testimonials reflect the level of professionalism, creativity, and dedication I bring to every project.</p>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div id="customer-testi" class="owl-carousel owl-theme">
+                                    <div class="media customer-testi m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small mr-3 rounded shadow" alt="">
+                                        <div class="media-body content p-3 shadow rounded bg-white position-relative">
+                                            <div class="testimonial-content">
+                                                <p class="text-muted mt-2">
+                                                    I had the pleasure of working with Luis at LexisNexis for the last year on a project that involved a
+                                                    significant
+                                                    redesign of an existing product. As it was a redesign, there were many non optimal, ingrained concepts
+                                                    and practices
+                                                    that threatened to be repeated if not addressed by a UX expert.<br>
+                                                    <br>
+                                                    Luis had a challenge ahead of him to not only understand the complex business logic, but also to guide a
+                                                    development
+                                                    team though the implementation of the future vision.<br>
+                                                    <br>
+                                                    Luis was very quick to grasp the concepts and brought a lot of new and innovative thinking to the
+                                                    project. He
+                                                    challenged
+                                                    preconceived notions and clearly articulated the benefits of different, UX friendly approaches.<br>
+                                                    <br>
+                                                    In my mind, the role of a UX designer is not to simply produce pretty wireframes and usability concepts,
+                                                    but instead
+                                                    it
+                                                    is to gain an in depth understanding of the purpose of the product, how it fits into the workflows of
+                                                    users and to
+                                                    make
+                                                    sure that the end result acts as an enabler and not a hindrance to the users. Luis achieved this,
+                                                    despite the
+                                                    challenges
+                                                    of a company that does not fully value UX and of course the pandemic that forced us into remote
+                                                    working.<br>
+                                                    <br>
+                                                    I can highly recommend Luis and his UX expertise and I wish the best of luck for his future!
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-link text-primary see-more" style="padding-left: 0px;">See More</button>
+                                            <button class="btn btn-link text-primary see-less" style="display: none; padding-left: 0px;">See Less</button>
+                                            <h6 class="text-primary">Micheal Reid <small class="text-muted">Product Owner at Lexis Nexis</small></h6>
+                                        </div>
+                                    </div>
+                                    <div class="media customer-testi m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small mr-3 rounded shadow" alt="">
+                                        <div class="media-body content p-3 shadow rounded bg-white position-relative">
+                                            <div class="testimonial-content">
+                                                <p class="text-muted mt-2">" I worked with Luis in the same team when he was working as Senior UX Designer
+                                                    in Ericsson. He is a hard worker and great communicator: His designs, user journeys, UX research
+                                                    reports, usability tests are always done with a focus on end users, dedication, and high quality, and
+                                                    they were always clear, well reported, and defined at any stage, so that everyone in the team was on the
+                                                    same page. He has great team player skills: I was the Backend Engineer in the same team, but even if I
+                                                    was not designing any user interface, I had a strong collaboration with Luis to design and implement the
+                                                    best product for end users. It's a great pleasure working with Luis. "</p>
+                                            </div>
+                                            <button class="btn btn-link text-primary see-more" style="padding-left: 0px;">See More</button>
+                                            <button class="btn btn-link text-primary see-less" style="display: none; padding-left: 0px;">See Less</button>
+                                            <h6 class="text-primary">Lorenzo Martino<small class="text-muted"> Back end dev at Ericsson</small></h6>
+                                        </div>
+                                    </div>
+                                    <div class="media customer-testi m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small mr-3 rounded shadow" alt="">
+                                        <div class="media-body content p-3 shadow rounded bg-white position-relative">
+                                            <div class="testimonial-content">
+                                                <p class="text-muted mt-2">" I worked with Luis for a couple of years on a very technical project at Ericsson. I found Luis to be a passionate
+                                                designer who was quick to offer compelling design solutions, often under pressure and to tight deadlines. He was great
+                                                with detail, open to new ideas and was fun to work with. I have no hesitation in recommending Luis as a UX/UI designer." "</p>
+                                            </div>
+                                            <button class="btn btn-link text-primary see-more" style="padding-left: 0px;">See More</button>
+                                            <button class="btn btn-link text-primary see-less" style="display: none; padding-left: 0px;">See Less</button>
+                                            <h6 class="text-primary">Marlon Bunday<small class="text-muted"> UX Designer at Ericsson</small></h6>
+                                        </div>
+                                    </div>
+                                    <div class="media customer-testi m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small mr-3 rounded shadow" alt="">
+                                        <div class="media-body content p-3 shadow rounded bg-white position-relative">
+                                            <div class="testimonial-content">
+                                                <p class="text-muted mt-2">" I worked with Luis while he was a UX designer working for Ericsson. I got a chance to work closely with him while
+                                                working on usability testing for our teams' product.
+                                                His designs are excellent, and well presented in the sense that a non UX person(Me) was able to grasp the benefits and
+                                                reasoning for doing things a certain way. He was a pleasure to work with , and I wish him all the best in his future
+                                                work. "</p>
+                                            </div>
+                                            <button class="btn btn-link text-primary see-more" style="padding-left: 0px;">See More</button>
+                                            <button class="btn btn-link text-primary see-less" style="display: none; padding-left: 0px;">See Less</button>
+                                            <h6 class="text-primary">Oshi Kavadia<small class="text-muted"> DevOps at Ericsson</small></h6>
+                                        </div>
+                                    </div>
+                                    <div class="media customer-testi m-2">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small mr-3 rounded shadow" alt="">
+                                        <div class="media-body content p-3 shadow rounded bg-white position-relative">
+                                            <div class="testimonial-content">
+                                                <p class="text-muted mt-2">" Luis is an excellent UI/UX designer with a broad range of experience. I helped placed Luis into his current contract
+                                                role with LexisNexis. All feedback has been excellent from management and he has been a dream to work with. I hope to
+                                                continue working with Luis into the future. "</p>
+                                            </div>
+                                            <button class="btn btn-link text-primary see-more" style="padding-left: 0px;">See More</button>
+                                            <button class="btn btn-link text-primary see-less" style="display: none; padding-left: 0px;">See Less</button>
+                                            <h6 class="text-primary">Arron Conroy<small class="text-muted"> Recruiter at Lexis Nexis</small></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end container-->
+                    </section><!--end section-->
+                    <!-- Feature End -->
+
+                    
+                    
+
+                    <!--end col-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- About End -->
+        
+        <!-- Key Feature Start -->
+        <section class="section bg-cta"
+            style="background: url('images/illustrator/app_development_SVG.svg') center center no-repeat;" id="cta"">
+                    <div class=" bg-overlay">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title title-dark text-white mb-4">Services Offered</h4>
+                            <p class="text-light para-desc para-dark mx-auto">As a freelance professional, I offer a range of services to meet your UX design needs. Whether you require assistance in enhancing your existing product or creating a new one, I can provide valuable insights and innovative solutions.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                        
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Product Strategy</h4>
+                                    <p class="text-muted mb-0">Developing a clear vision and roadmap for the product's user experience.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                            <ul class="list-inline mb-0 mt-4">
+                                <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                    <div class="content">
+                                        <h4 class="title mb-0">Agile Methodologies</h4>
+                                        <p class="text-muted mb-0">Working within agile frameworks to ensure iterative and collaborative development.</p>
+                                    </div>
+                                </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Prototyping</h4>
+                                    <p class="text-muted mb-0">Developing interactive prototypes to demonstrate and validate design concepts.</p>
+                                    </p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Project Management</h4>
+                                    <p class="text-muted mb-0">Overseeing and coordinating project activities, timelines, and resources.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">UX Design</h4>
+                                    <p class="text-muted mb-0">Creating user-centered designs that
+                                    effectively address user requirements and goals.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Information Architecture</h4>
+                                    <p class="text-muted mb-0">Organizing and structuring information in a logical and intuitive way</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Data Analysis</h4>
+                                    <p class="text-muted mb-0">Analyzing user data and feedback to gain insights and make data-driven design decisions.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Usability Testing</h4>
+                                    <p class="text-muted mb-0">Planning and conducting usability tests to gather feedback and validate design decisions.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+        
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <ul class="list-inline mb-0 mt-4">
+                            <li class="key-feature d-flex p-3 bg-white rounded shadow">
+                                <div class="content">
+                                    <h4 class="title mb-0">Stakeholder Management:</h4>
+                                    <p class="text-muted mb-0">Effectively communicating with stakeholders to understand their requirements and align project
+                                    goals.</p>
+                                </div>
+                            </li>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+        
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mt-4 pt-2">
+                        <!--See all button
+                                <a href="javascript:void(0)" class="btn btn-primary">See More <i class="mdi mdi-arrow-right"></i></a>
+                            </div>
+        -->
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+                <!-- Feature Start -->
+
+            <!--end container-->
+        </section>
+
+        <!--end section-->
+        <!-- Key Feature End -->
+        <!-- Team Start -->
+        <section class="section">
+                <div class="container" style="padding-top: 2em;">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <div class="section-title mb-4 pb-2">
+                                <h4 class="title mb-4">Work Process</h4>
+                                <p class="text-muted para-desc mx-auto mb-0">With extensive experience in agile environments, I excel at fostering efficient collaboration and delivering impactful
+                                results. My work process is centered around ensuring <b>efficient project execution</b>, aiming to deliver projects within the
+                                given time and budget constraints while prioritizing client satisfaction</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                    <div class="row">
+                        <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                            <div class="features text-center">
+                                <div class="image position-relative d-inline-block">
+                                    <img src="images/icon/ux_research.svg" class="avatar avatar-small" alt="">
+                                </div>
+            
+                                <div class="content mt-4">
+                                    <h4 class="title-2">Resource Allocation</h4>
+                                    <p class="text-muted mb-0">I carefully allocate resources, including team members, tools, and budget, to optimize productivity and ensure that
+                                    project activities are completed within the given time and budget constraints.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+            
+                        <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                            <div class="features text-center">
+                                <div class="image position-relative d-inline-block">
+                                    <img src="images/icon/video.svg" class="avatar avatar-small" alt="">
+                                </div>
+            
+                                <div class="content mt-4">
+                                    <h4 class="title-2">Risk Management</h4>
+                                    <p class="text-muted mb-0">I proactively identify potential risks and develop mitigation strategies to minimize their impact on the project
+                                    timeline and budget. This includes anticipating challenges, implementing contingency plans, and regularly monitoring
+                                    project progress to address any issues promptly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+            
+                        <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                            <div class="features text-center">
+                                <div class="image position-relative d-inline-block">
+                                    <img src="images/icon/intellectual.svg" class="avatar avatar-small" alt="">
+                                </div>
+            
+                                <div class="content mt-4">
+                                    <h4 class="title-2">Stakeholder Engagement</h4>
+                                    <p class="text-muted mb-0">I ensure open and transparent communication with all project stakeholders, leveraging agile ceremonies such as daily
+                                    stand-ups, sprint planning, and retrospectives. By setting up collaborative boards and documentation systems, I enable
+                                    real-time progress tracking, facilitate efficient decision-making, and ensuring timely project delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+        <section class="section bg-light">
+            <!-- Feature Start -->
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Skills and Expertise</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">With a strong background in UX design, I possess a comprehensive set of skills that contribute to successful project
+                            outcomes. I am proficient in various tools and software, and I stay updated with the latest industry trends. My
+                            technical expertise, combined with my deep understanding of user behavior and psychology, allows me to create intuitive
+                            and impactful user experiences.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+        
+                
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Team End -->
+<section class="section">
+    <div class="container" style="padding-top: 4em;">
+        <div class="row">
+            <a href="portfolio.html">
+                <div class="col-md-4">
+                    <div
+                        class="course-feature text-center position-relative d-block overflow-hidden bg-white rounded p-4 pt-5 pb-5">
+                        <div class="icon">
+                            <img src="images/icon/contact-information.svg" class="avatar avatar-small" alt="">
+                        </div>
+                        <h4 class="mt-3">
+                            <a href="portfolio.html" class="title text-dark">Case studies</a>
+                        </h4>
+                        <p class="text-muted">
+                            <a href="portfolio.html" class="text-muted">Take a glimpse into my portfolio and explore
+                                successful projects where I have collaborated with clients from various industries.
+                            </a>
+                        </p>
+                        <a href="portfolio.html" class="text-primary read-more">Portfolio<i
+                                class="mdi mdi-chevron-right">
+
+                            </i>
+                        </a>
+                        <img src="images/icon/contact-information.svg" class="full-img" height="300" alt="">
+                    </div>
+
+                </div>
+            </a><!--end col-->
+            <a href="our-services.html">
+                <div class="col-md-4">
+                    <div
+                        class="course-feature text-center position-relative d-block overflow-hidden bg-white rounded p-4 pt-5 pb-5">
+                        <div class="icon">
+                            <img src="images/icon/tie.svg" class="avatar avatar-small" alt="">
+                        </div>
+                        <h4 class="mt-3"><a href="our-services.html" class="title text-dark">Our services</a></h4>
+                        <p class="text-muted"><a href="our-services.html" class="text-muted">I offer a range of
+                                comprehensive UX design services aimed at helping businesses create seamless, intuitive,
+                                and engaging user experiences.
+                            </a></p>
+                        <a href="our-services.html" class="text-primary read-more">Services<i
+                                class="mdi mdi-chevron-right"></i>
+                            <img src="images/icon/tie.svg" class="full-img" height="300" alt="">
+                    </div>
+                </div>
+            </a>
+            <a href="https://calendly.com/uxlandi" target="_blank">
+                <div href="https://calendly.com/uxlandi" target="_blank" class="col-md-4">
+                    <div
+                        class="course-feature text-center position-relative d-block overflow-hidden bg-white rounded p-4 pt-5 pb-5">
+                        <div class="icon">
+                            <img src="images/icon/calendar.svg" class="avatar avatar-small" alt="UX remote book a call">
+                        </div>
+                        <h4 class="mt-3"><a href="https://calendly.com/uxlandi" target="_blank"
+                                class="title text-dark">Interested in discussing your next project?</a></h4>
+                        <p class="text-muted"><a href="https://calendly.com/uxlandi" target="_blank"
+                                class="text-muted">Reach out today to start a conversation about how I can help elevate
+                                your digital experiences. Book now a call.
+                            </a></p>
+                        <a href="https://calendly.com/uxlandi" target="_blank" class="text-primary read-more">Book a 30
+                            min call <i class="mdi mdi-chevron-right"></i>
+                            <img src="images/icon/calendar.svg" class="full-img" height="300" alt="">
+                    </div>
+                </div>
+            </a>
+        </div><!--end container-->
+</section><!--end section-->
+        
+        </section>
+        
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-left">
+                            <p class="mb-0">© 2023 by Luis Landi<!--director of<a href="http://www.salsedine.net/" target="_blank" class="text-success"> Salsedine Limited</a>.</p>-->
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <ul class="list-unstyled social-icon social text-sm-right mb-0">
+                            <li class="list-inline-item mb-0"><a href="https://www.facebook.com/uxremote/" class="rounded" target="_blank"><i class="mdi mdi-facebook"
+                                        title="Facebook"></i></a></li>
+                            <li class="list-inline-item mb-0"><a href="https://www.instagram.com/uxremote/" class="rounded" target="_blank"><i class="mdi mdi-instagram"
+                                        title="Instagram"></i></a></li>
+                            <li class="list-inline-item mb-0"><a href="https://twitter.com/UxRemote" class="rounded"><i class="mdi mdi-twitter"
+                                        title="Twitter"></i></a></li>
+                            <li class="list-inline-item mb-0"><a href="https://slack.com/app_redirect?channel=C01FKHKGVM1" class="rounded"><i class="mdi mdi-slack"
+                                        title="Slack"></i></a></li>
+                        </ul>
+                        <!--end icon-->
+                    </div>
+                    <!--end col-->
+
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Back to top -->
+        <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
+            <i class="mdi mdi-chevron-up d-block"></i>
+        </a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific.init.js"></script>
+        <!-- SLIDER -->
+        <script src="js/owl.carousel.min.js "></script>
+        <script src="js/owl.init.js "></script>
+        <!--FLEX SLIDER-->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/flexslider.init.js"></script>
+        <!-- Counter -->
+        <script src="js/counter.init.js "></script>
+        
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
